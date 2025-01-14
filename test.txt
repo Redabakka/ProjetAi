@@ -1,9 +1,3 @@
-API_Gemini
-AIzaSyArbgg_p_HlmpgrcjVYemdSJeMCP9OTj3E
-les tests
-Quels sont les problèmes possibles si la voiture fait un bruit de cliquetis au niveau du moteur et comment les résoudre ?
-Quels critères devrais-je considérer pour choisir un véhicule adapté à une utilisation principalement en ville ?
-
 
 pour lancer le backend
 uvicorn backend:app --reload
