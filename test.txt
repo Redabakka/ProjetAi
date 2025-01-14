@@ -1,0 +1,34 @@
+API_Gemini
+AIzaSyArbgg_p_HlmpgrcjVYemdSJeMCP9OTj3E
+les tests
+Quels sont les problèmes possibles si la voiture fait un bruit de cliquetis au niveau du moteur et comment les résoudre ?
+Quels critères devrais-je considérer pour choisir un véhicule adapté à une utilisation principalement en ville ?
+
+
+pour lancer le backend
+uvicorn backend:app --reload
+
+pour telecharger les fichiers pdf 
+curl -X POST "http://127.0.0.1:8000/upload" -F "file=@/Users/redabakka/Downloads/Guide_Entretien.pdf"
+
+============ question pour diagnostic================
+Quels sont les symptômes d'une batterie faible de ma voiture ?
+Que peut indiquer un bruit de cliquetis provenant du moteur ?
+Quels composants doivent être vérifiés si la consommation de carburant augmente ?
+Que signifie un témoin moteur allumé ?
+
+============ question pour entretien================
+Comment l'entretien préserve-t-il la valeur de revente d'une voiture ?
+Quand faut-il remplacer les plaquettes de frein ?
+Quels sont les signes d'une batterie en fin de vie ?
+Pourquoi est-il important de vérifier régulièrement les lumières du véhicule ?
+À quelle fréquence le système de climatisation doit-il être contrôlé ?
+Pourquoi est-il important de changer le filtre à huile régulièrement ?
+
+============ question pour recherche voiture================
+Quels sont les principaux critères à considérer pour choisir une voiture adaptée à vos besoins ?
+Pourquoi un SUV peut-il être un bon choix pour une famille ?
+Quels éléments doivent être inspectés avant d'acheter une voiture d'occasion ?
+Quels sont les moments les plus opportuns pour acheter une voiture neuve à un prix réduit ?
+Pourquoi une voiture d'occasion peut-elle être plus avantageuse économiquement ?
+
