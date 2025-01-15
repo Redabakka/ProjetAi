@@ -8,7 +8,7 @@ import requests
 app = FastAPI()
 
 # Configuration de l'API Gemini
-GEMINI_API_KEY = "AIzaSyDiyT3x5563LM3k277sR8qQ2wAwWIpb-lQ"  
+GEMINI_API_KEY = ""  
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent"
 
 # Configuration des embeddings et FAISS
